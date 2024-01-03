@@ -1,0 +1,5 @@
+
+
+train_model_out_path_DPAUNet: data/models_PSLNet
+train_data_path: data
+models:
