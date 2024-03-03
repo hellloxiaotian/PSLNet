@@ -20,23 +20,21 @@
 
 #### The training dataset of the PASCAL VOC 2021 can be obtained at https://pjreddie.com/projects/pascal-voc-dataset-mirror/
 
-#### H5 file: 
-
 ### Training datasets
 
 #### The training dataset of the PASCAL VOV 2012 can be obtained at https://pan.baidu.com/s/1CupR9FG61LxkjmfW0_MDOw (gl36)
 
 ## Command
 
+Download model file at https://pan.baidu.com/s/1k96ux2wB0Hw9G6-97UhwsQ  (passwd: vus0) and put `data`/  into `PSLNet/`
+
 ### Test
 
-Download model file at https://pan.baidu.com/s/1RkuVLUA-X6JieCgEPurU_g (passwd: zyn8)
-
-python test_noisy.py --net DPAUNet --mode [B/S] --mode_wm [B/S] --test_noiseL [0/15/25/50] --alphaL [0.3/0.5/0.7/1.0] --loss L1 --self_supervised True --display False
+python test_noisy.py --net PSLNet --mode [B/S] --mode_wm [B/S] --test_noiseL [0/15/25/50] --alphaL [0.3/0.5/0.7/1.0] --loss L1 --self_supervised True --display False
 
 ### Train
 
-python train_noisy.py --net DPAUNet --noiseL 25 --mode_wm S --alpha 0.3 --loss L1 --self_supervised True --display False
+python train_noisy.py --net PSLNet --noiseL 25 --mode_wm S --alpha 0.3 --loss L1 --self_supervised True --display False
 
 mode：trained with blind noise [B] or not [S]
 
