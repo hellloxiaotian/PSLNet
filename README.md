@@ -26,7 +26,7 @@
 
 ## Command
 
-Download model file at https://pan.baidu.com/s/1k96ux2wB0Hw9G6-97UhwsQ  (passwd: vus0) and put `data`/  into `PSLNet/`
+Download model file at 链接：https://pan.baidu.com/s/1JeVPgLlNeG-FAnkAGF37mw (passwd: 7rzo) and put `data`/  into `PSLNet/`
 
 ### Test
 
