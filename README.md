@@ -1,6 +1,7 @@
 ## This paper as well as  Perceptive self-supervised learning network for noisy image watermark removal is conducted by Chunwei Tian, Menghua Zheng, Bo Li, Yanning Zhang, Shichao Zhang, David Zhang. This  paper is accepted by the IEEE Transactions on Circuits and Systems for Video Technology (IF:8.4) and it is implemented by Pytorch. 
 
 ## This paper is reported by 52CV (https://mp.weixin.qq.com/s/aYcJCmQoUHUej7ahYKgWhw).
+## Its original paper can be obtained at https://ieeexplore.ieee.org/abstract/document/10380632 or https://arxiv.org/html/2403.02211v1.
 
 ## Its abstract is shown as follows.
 
